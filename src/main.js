@@ -3,4 +3,4 @@ import {minus} from './B';
 const {plus} = require('./A');
 console.log(minus(1,2));
 console.log(plus(1,2));
-console.log('编译成功！')
+console.log('首页面入口！')
