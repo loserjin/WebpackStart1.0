@@ -9,7 +9,7 @@ const {CleanWebpackPlugin} =  require('clean-webpack-plugin');
 module.exports = {
     //设定编译的模式：development/production（默认）
     //为production： filename: 'bundle.min.js',
-    mode: 'production',
+    mode: 'development',
     //设置编译的入口文件(真实项目中一般开发的代码都要放在SRC文件夹下)
     entry: './src/main.js',
     //设置编译的出口文件
@@ -18,6 +18,26 @@ module.exports = {
         filename: 'bundle.[hash].min.js',
         //输出目录(必须是绝对路径)
         path: path.resolve(__dirname,'build'),
+    },
+    //配置DEV-SERVER，编译后的结果放在计算机内存中，并不会像之前的webpack命令一样，
+    //把编译后的东西放在build下，dev-server仅仅是在开发模式下，随时编译并且预览，项
+    // 目要部署的时候，还是需要基于webpack编译打包的
+    devServer: {
+        //在哪个端口号运行
+        port: '3000',
+        //开启GZIP压缩
+        compress: true,
+        //指定资源访问的路径
+        contentBase: path.resolve(__dirname, "build"),
+        //自动打开浏览器
+        open: true,
+        //开启热更新
+        hot: true,
+        //Proxy跨域代理(对象)
+        // proxy: {
+        //     '/':'127.0.0.1:8000'
+        // }
+
     },
     //在webpack中使用插件
     plugins:[
@@ -44,6 +64,6 @@ module.exports = {
             }
         }),
         //每一次打包都把之前打包的清空
-        // new CleanWebpackPlugin()
+        new CleanWebpackPlugin()
     ]
 };
