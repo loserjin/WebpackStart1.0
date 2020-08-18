@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fdc6f15-b868-499d-bcdb-38ac9476490c" name="Default Changelist" comment="" />
+    <list default="true" id="4fdc6f15-b868-499d-bcdb-38ac9476490c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copy1/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/common.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/css/reset.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,25 +36,44 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g56RfSgZdkIUDPTFpWryRqPMBN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.2" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/copy1" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\webstorm\WebStorm 2020.23\WebackStart\copy1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\webstorm\WebStorm 2020.23\WebackStart\copy1" />
+      <recent name="F:\webstorm\WebStorm 2020.23\WebackStart\src" />
+      <recent name="F:\webstorm\WebStorm 2020.23\WebackStart\src\static" />
+      <recent name="F:\webstorm\WebStorm 2020.23\WebackStart\cssLesspacking" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,38 +84,46 @@
       <option name="presentableId" value="Default" />
       <updated>1597392101715</updated>
       <workItem from="1597392103566" duration="1201000" />
-      <workItem from="1597591290065" duration="14992000" />
+      <workItem from="1597591290065" duration="17510000" />
+      <workItem from="1597714665922" duration="3737000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="257" y="86" key="EditFileWatcherDialog" timestamp="1597717348737">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="257" y="86" key="EditFileWatcherDialog/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597717348737" />
     <state x="409" y="58" key="FileChooserDialogImpl" timestamp="1597674229609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="58" key="FileChooserDialogImpl/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597674229609" />
-    <state width="1338" height="130" key="GridCell.Tab.0.bottom" timestamp="1597670586142">
+    <state width="1338" height="234" key="GridCell.Tab.0.bottom" timestamp="1597716956736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1338" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597670586142" />
-    <state width="1338" height="130" key="GridCell.Tab.0.center" timestamp="1597670586142">
+    <state width="1338" height="234" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597716956736" />
+    <state width="1338" height="234" key="GridCell.Tab.0.center" timestamp="1597716956735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1338" height="130" key="GridCell.Tab.0.center/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597670586142" />
-    <state width="1338" height="130" key="GridCell.Tab.0.left" timestamp="1597670586141">
+    <state width="1338" height="234" key="GridCell.Tab.0.center/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597716956735" />
+    <state width="1338" height="234" key="GridCell.Tab.0.left" timestamp="1597716956735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1338" height="130" key="GridCell.Tab.0.left/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597670586141" />
-    <state width="1338" height="130" key="GridCell.Tab.0.right" timestamp="1597670586142">
+    <state width="1338" height="234" key="GridCell.Tab.0.left/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597716956735" />
+    <state width="1338" height="234" key="GridCell.Tab.0.right" timestamp="1597716956735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1338" height="130" key="GridCell.Tab.0.right/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597670586142" />
-    <state x="58" y="0" key="SettingsEditor" timestamp="1597674238274">
+    <state width="1338" height="234" key="GridCell.Tab.0.right/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597716956735" />
+    <state x="58" y="0" key="SettingsEditor" timestamp="1597717991128">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="58" y="0" key="SettingsEditor/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597674238274" />
+    <state x="58" y="0" key="SettingsEditor/0.0.1366.728/1366.-106.1366.728@0.0.1366.728" timestamp="1597717991128" />
     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1597676495730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
