@@ -16,5 +16,13 @@ console.log('首页面入口！')*/
 最后webpack会把对应类型的资源全部合并然后打包在一起（而且是按照依赖关系处理的）
 * */
 import './static/css/reset.min.css';
+// import './static/css/iconfont.css';
 // import './static/css/index.less';或者
 require('./static/css/index.less');
+//在JS中动态创建图片
+//如果地址是一个外网的绝对地址直接使用即可（编译后地址还是外网地址）
+//如果需要设置的是相对地址，则需要基于require把图片导入进来再使用，否则编译后地址是找不到的
+let A = require('./images/icon.png');
+let image = new Image();
+image.src = A;
+document.activeElement.appendChild(image);
