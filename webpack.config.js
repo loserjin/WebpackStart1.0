@@ -127,6 +127,31 @@ module.exports = {
                 //处理编译html页面中的图片，把其按照上述图片的处理机制处理：html-withimg-loader
                 test: /\.html$/i,
                 use: ['html-withimg-loader']
+            }, {
+                test: /\.(js)$/i,
+                use: [{
+                    loader: "babel-loader",
+                    options: {
+                        presets: [
+                            //把ES6转为ES5
+                            "@babel/preset-env"
+                        ],
+                        //基于插件处理ES6/ES7中的特殊语法
+                        plugins: [
+                            //类的装饰器，ES7中的语法
+                            ["@babel/plugin-proposal-decorators",{
+                                "legacy": true
+                            }],
+                            //类中设置属性的
+                            ["@babel/plugin-proposal-class-properties",{
+                            "loose": true
+                            }],
+                            "@babel/plugin-transform-runtime"
+                        ]
+                    }
+                },"eslint-loader"],//"eslint-loader"开启语法检测
+                include: path.resolve(__dirname, 'src'),
+                exclude: '/node_modules/'
             }],
     }
 };

@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fdc6f15-b868-499d-bcdb-38ac9476490c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/css/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/css/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/css/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/css/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/css/iconfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +68,7 @@
       <workItem from="1597392103566" duration="1201000" />
       <workItem from="1597591290065" duration="17510000" />
       <workItem from="1597714665922" duration="7411000" />
-      <workItem from="1597723868951" duration="7666000" />
+      <workItem from="1597723868951" duration="10421000" />
     </task>
     <servers />
   </component>
